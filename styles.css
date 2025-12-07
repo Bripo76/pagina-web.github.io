@@ -418,3 +418,18 @@ body.menu-open nav.primary {
   gap: 10px;
   box-shadow: 0 20px 60px rgba(30, 10, 20, 0.2)
 }
+.rating {
+  cursor: pointer;
+  display: flex;
+  gap: 4px;
+}
+
+.star {
+  opacity: 0.3;
+  transition: opacity 0.2s ease;
+}
+
+.star:hover,
+.star.active {
+  opacity: 1;
+}
