@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>La Buena Mesa - Carta</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <div class="badge">LB</div> La Buena Mesa
+      </div>
+      <nav class="primary"><a href="index.html">Inicio</a><a href="about.html">Nuestro Chef</a><a
+          href="menu.html">Carta</a><a href="contact.html" class="contact">Contacto</a></nav>
+      <div style="display:flex;align-items:center;gap:12px">
+        <div class="search"><input placeholder="Buscar..."><span class="icon">🔎</span></div><button class="hamburger"
+          onclick="toggleMenu()"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2 style="color:var(--accent)">Nuestra Carta</h2>
+      <p style="color:var(--muted);margin-top:8px">Platos elaborados con ingredientes de la región.</p>
+      <div class="menu-list">
+        <div class="menu-item"><img
+            src="https://www.casademexico.es/wp-content/uploads/2023/05/Chiles-en-nogada-690-webp-1.webp"
+            style="width:100px;height:72px;object-fit:cover;border-radius:8px">
+          <div class="info">
+            <h4>Chiles En Nogada</h4>
+            <p style="color:var(--muted);margin:6px 0;font-size:14px">Chile poblano relleno de carne molida (cerdo y
+              res), frutos y semillas. Con nuez de castilla, granada y una crema de nuez y jerez.
+            </p>
+            <div class="price" style="color:var(--accent);font-weight:700">$145</div>
+          </div>
+        </div>
+        <div class="menu-item"><img
+            src="https://www.casademexico.es/wp-content/uploads/2025/05/enchiladas-poblanas-2.png"
+            style="width:100px;height:72px;object-fit:cover;border-radius:8px">
+          <div class="info">
+            <h4>Enchiladas poblanas gratinadas</h4>
+            <p style="color:var(--muted);margin:6px 0;font-size:14px">tortilla con pollo bañada en Mole Poblano con crema.</p>
+            <div class="price" style="color:var(--accent);font-weight:700">$155</div>
+          </div>
+        </div>
+        <div class="menu-item"><img
+            src="https://www.casademexico.es/wp-content/uploads/2025/02/carne-en-su-jugo.jpg"
+            style="width:100px;height:72px;object-fit:cover;border-radius:8px">
+          <div class="info">
+            <h4>Carne en su jugo estilo Jalisco</h4>
+            <p style="color:var(--muted);margin:6px 0;font-size:14px">la Carne en su Jugo (con carne, tocino, cebollitas, chile y jugo)</p>
+            <div class="price" style="color:var(--accent);font-weight:700">$135</div>
+          </div>
+        </div>
+        <div class="menu-item"><img
+            src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop"
+            style="width:100px;height:72px;object-fit:cover;border-radius:8px">
+          <div class="info">
+            <h4>Postre de la casa</h4>
+            <p style="color:var(--muted);margin:6px 0;font-size:14px">Flan de café con caramelo salado.</p>
+            <div class="price" style="color:var(--accent);font-weight:700">$85</div>
+          </div>
+        </div>
+        <div class="menu-item"><img
+            src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop"
+            style="width:100px;height:72px;object-fit:cover;border-radius:8px">
+          <div class="info">
+            <h4>Postre de la casa</h4>
+            <p style="color:var(--muted);margin:6px 0;font-size:14px">Flan de café con caramelo salado.</p>
+            <div class="price" style="color:var(--accent);font-weight:700">$85</div>
+          </div>
+        </div>
+        <div class="menu-item"><img
+            src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop"
+            style="width:100px;height:72px;object-fit:cover;border-radius:8px">
+          <div class="info">
+            <h4>Postre de la casa</h4>
+            <p style="color:var(--muted);margin:6px 0;font-size:14px">Flan de café con caramelo salado.</p>
+            <div class="price" style="color:var(--accent);font-weight:700">$85</div>
+          </div>
+        </div>
+        <div class="menu-item"><img
+            src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop"
+            style="width:100px;height:72px;object-fit:cover;border-radius:8px">
+          <div class="info">
+            <h4>Postre de la casa</h4>
+            <p style="color:var(--muted);margin:6px 0;font-size:14px">Flan de café con caramelo salado.</p>
+            <div class="price" style="color:var(--accent);font-weight:700">$85</div>
+          </div>
+        </div>
+        <div class="menu-item"><img
+            src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop"
+            style="width:100px;height:72px;object-fit:cover;border-radius:8px">
+          <div class="info">
+            <h4>Postre de la casa</h4>
+            <p style="color:var(--muted);margin:6px 0;font-size:14px">Flan de café con caramelo salado.</p>
+            <div class="price" style="color:var(--accent);font-weight:700">$85</div>
+    </section>
+    <footer>© 2025 La Buena Mesa</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contacto - La Buena Mesa</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <div class="badge">LB</div> La Buena Mesa
+      </div>
+      <nav class="primary"><a href="index.html">Inicio</a><a href="about.html">Nuestro Chef</a><a
+          href="menu.html">Carta</a><a href="contact.html" class="contact">Contacto</a></nav>
+      <div style="display:flex;align-items:center;gap:12px">
+        <div class="search"><input placeholder="Buscar..."><span class="icon">🔎</span></div><button class="hamburger"
+          onclick="toggleMenu()"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 style="color:var(--accent)">Contacto</h1>
+    <p>Estamos encantados de atenderte. Si deseas hacer una reservación, utiliza el formulario.</p>
+    <div class="contact-card">
+      <form data-contact="true">
+        <div class="form-row">
+          <input class="input" type="text" name="nombre" placeholder="Nombre completo" required>
+          <input class="input" type="email" name="email" placeholder="Correo electrónico" required>
+        </div>
+        <div class="form-row">
+          <input class="input" type="tel" name="telefono" placeholder="Teléfono">
+          <input class="input" type="text" name="asunto" placeholder="Asunto">
+        </div>
+        <textarea class="input" name="mensaje" rows="5" placeholder="Mensaje" required></textarea>
+        <div style="margin-top:12px;text-align:right"><button class="btn-send" type="submit">Enviar solicitud</button>
+        </div>
+      </form>
+    </div>
+
+    <div style="margin-top:30px;display:flex;gap:18px;flex-wrap:wrap">
+      <div style="flex:1;min-width:260px">
+        <p><strong>Dirección:</strong> Calle Sabores #123</p>
+        <p><strong>Teléfono:</strong> +52 123 456 7890</p>
+        <p><strong>Horario:</strong> Lun-Dom / 12:00 - 23:00</p>
+        <img src="https://www.casademexico.es/wp-content/uploads/2025/10/1-18.webp"
+          style="width:100%;border-radius:12px;margin-top:12px">
+      </div>
+      <div style="flex:1;min-width:260px">
+        <iframe src="" width="100%" height="300"
+          style="border:0;border-radius:12px" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+
+    <footer style="margin-top:20px">© 2025 La Buena Mesa · Reservaciones: +52 123 456 7890</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

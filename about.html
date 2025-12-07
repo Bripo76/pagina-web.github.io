@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>La Buena Mesa - Nuestro Chef</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <div class="badge">LB</div> LA BUENA MESA
+      </div>
+      <nav class="primary"><a href="index.html">Inicio</a><a href="about.html">Nuestro Chef</a><a
+          href="menu.html">Carta</a><a href="contact.html" class="contact">Contacto</a></nav>
+      <div style="display:flex;align-items:center;gap:12px">
+        <div class="search"><input placeholder="Buscar..."><span class="icon">🔎</span></div><button class="hamburger"
+          onclick="toggleMenu()"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card profile">
+      <div class="avatar"><img
+          src="https://scontent.fcul1-1.fna.fbcdn.net/v/t39.30808-6/547202903_2963468610514671_221422417350968974_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeETiFe8pTs0wXgP0DycUKR_exPEL2qfoa57E8Qvap-hrgkqrXQTWz5e4bN0DwsoWE6Ad2fZSRacQxSVV9WI8uec&_nc_ohc=f7GoYM0Sik0Q7kNvwHNTi7u&_nc_oc=AdkANDYPZGPJFCSk4W4mwJzPsB6OU1d-CzLkJQ3jpewTdkL8SYo4ska3hsQqmfjjcuL-uDdDVx6Q0DNFeS76HVe8&_nc_zt=23&_nc_ht=scontent.fcul1-1.fna&_nc_gid=F-r5JXu43Jitp028B6ElFA&oh=00_AfmlzKEZhIOXye9ZXy-jzZIUR3bGX3kGo1qiAUQ7fyn8qg&oe=693AF8AA" alt="chef">
+      </div>
+      <div class="info">
+        <h2>Chef Miguel A. Brito</h2>
+        <p style="color:var(--muted)">Chef ejecutivo y fundador de La Buena Mesa. Brito busca rescatar los sabores de la cocina mexicana.</p>
+        <h3 style="margin-top:12px;color:var(--accent)">Trayectoria</h3>
+        <ul style="color:var(--muted);line-height:1.6">
+          <li>2008 - Inició su carrera en la Universidad del Claustro de Sor Juana.</li>
+          <li>2014 - Jefe de cocina en Mar y Tierra.</li>
+          <li>2020 - Fundador de La Buena Mesa.</li>
+        </ul>
+        <div class="skills">
+          <div class="skill">
+            <div class="label"><span>Cocina regional</span><span>88%</span></div>
+            <div class="bar">
+              <div class="fill fill-1"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="label"><span>Creatividad</span><span>80%</span></div>
+            <div class="bar">
+              <div class="fill fill-2"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="label"><span>Gestión</span><span>70%</span></div>
+            <div class="bar">
+              <div class="fill fill-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="grid" style="margin-top:18px">
+      <div class="card">
+        <h3>Filosofía</h3>
+        <p style="color:var(--muted)">Respetar el producto local y ofrecer platos que evoquen tradición.</p>
+      </div>
+      <div class="card">
+        <h3>Clases</h3>
+        <p style="color:var(--muted)">Talleres mensuales de cocina.</p>
+      </div>
+      <div class="card">
+        <h3>Prensa</h3>
+        <p style="color:var(--muted)">Reseñas y menciones en medios locales.</p>
+      </div>
+    </section>
+    <footer>© 2025 LA BUENA MESA</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

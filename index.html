@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>La Buena Mesa - Inicio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <div class="badge">LB</div> LA BUENA MESA
+      </div>
+      <nav class="primary">
+        <a href="index.html">Inicio</a>
+        <a href="about.html">Nuestro Chef</a>
+        <a href="menu.html">Carta</a>
+        <a href="contact.html" class="contact">Contacto</a>
+      </nav>
+      <div style="display:flex;align-items:center;gap:12px">
+        <div class="search"><input placeholder="Buscar platillo..."><span class="icon">🔎</span></div>
+        <button class="hamburger" onclick="toggleMenu()" aria-label="menu"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left">
+        <h1>Bienvenido a <span style="color:var(--accent)">LA BUENA MESA</span></h1>
+        <p>Sabores auténticos preparados con ingredientes frescos y recetas tradicionales. Disfruta de una experiencia
+          gastronómica diseñada para los amantes de la buena comida.</p>
+        <div class="cta">
+          <button class="btn btn-primary">Reservar mesa</button>
+          <button class="btn btn-outline" onclick="location.href='menu.html'">Ver nuestra carta</button>
+        </div>
+      </div>
+      <div class="hero-right">
+        <img src="https://www.casademexico.es/wp-content/uploads/2025/02/carne-en-su-jugo.jpg"
+          alt="Platillo destacado" style="width:100%;height:100%;object-fit:cover;">
+      </div>
+    </section>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Especialidad</h3>
+        <div style="display:flex;gap:12px;align-items:center">
+          <img src="https://www.casademexico.es/wp-content/uploads/2023/05/Chiles-en-nogada-690-webp-1.webp"
+            style="width:86px;height:66px;object-fit:cover;border-radius:8px">
+          <div>
+            <strong>Chiles en nogada</strong>
+            <p style="margin:6px 0;color:var(--muted)">Chile poblano relleno de carne molida (cerdo y res), frutos y semillas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Ambiente</h3>
+        <p>Espacio cálido y acogedor, ideal para cenas familiares y encuentros.</p>
+      </div>
+      <div class="card">
+        <h3>Eventos</h3>
+        <p>Celebraciones y cenas privadas con menús personalizados.</p>
+      </div>
+    </div>
+
+    <section class="card profile" style="margin-top:18px">
+      <div class="avatar"><img
+          src="https://scontent.fcul1-1.fna.fbcdn.net/v/t39.30808-6/547202903_2963468610514671_221422417350968974_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeETiFe8pTs0wXgP0DycUKR_exPEL2qfoa57E8Qvap-hrgkqrXQTWz5e4bN0DwsoWE6Ad2fZSRacQxSVV9WI8uec&_nc_ohc=f7GoYM0Sik0Q7kNvwHNTi7u&_nc_oc=AdkANDYPZGPJFCSk4W4mwJzPsB6OU1d-CzLkJQ3jpewTdkL8SYo4ska3hsQqmfjjcuL-uDdDVx6Q0DNFeS76HVe8&_nc_zt=23&_nc_ht=scontent.fcul1-1.fna&_nc_gid=F-r5JXu43Jitp028B6ElFA&oh=00_AfmlzKEZhIOXye9ZXy-jzZIUR3bGX3kGo1qiAUQ7fyn8qg&oe=693AF8AA"
+          alt="chef"></div>
+      <div class="info">
+        <h2>Chef Miguel A. Brito</h2>
+        <p style="color:var(--muted)">Con más de 15 años en cocina internacional, Brito fusiona técnicas clásicas
+          con sabores modernos.</p>
+        <div class="skills">
+          <div class="skill">
+            <div class="label"><span>Cocina regional</span><span>88%</span></div>
+            <div class="bar">
+              <div class="fill fill-1"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="label"><span>Cocina internacional</span><span>72%</span></div>
+            <div class="bar">
+              <div class="fill fill-2"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="label"><span>Pastelería</span><span>60%</span></div>
+            <div class="bar">
+              <div class="fill fill-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>© 2025 LA BUENA MESA · Calle Falsa 123 · Reservaciones: +52 123 456 7890</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
